@@ -8,9 +8,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Center(
-        child: Material(
-          child: Text("Welcome to flutter application"),
+      home: Material(
+        child: Center(
+          child: Container(
+            child: Text("Welcome to flutter Development"),
+          ),
         ),
       ),
     );
